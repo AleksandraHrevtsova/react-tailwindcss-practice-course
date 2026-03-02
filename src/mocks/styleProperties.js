@@ -49,11 +49,13 @@ export const descriptions = {
     'pbe - padding-block-end',
   ],
   'margin': [
+    'm-px',
+    '-m-px',
     'm-<number>',
     '-m-<number>',
     'm-auto',
-    'm-px',
-    '-m-px'
+    'm-[<value>]',
+    'm-(<custom-property>)'
   ],
   'width': [],
   'min-width': [],
